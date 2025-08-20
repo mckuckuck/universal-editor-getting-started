@@ -1,0 +1,55 @@
+.block.quote {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+.block.quote blockquote {
+    padding: 24px 24px 12px 24px;
+    text-indent: 0;
+    position: relative;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.block.quote blockquote::before {
+    content: "\201C";
+    font-size: 4em;
+    color: #666;
+    position: absolute;
+    left: -20px;
+    top: -10px;
+    line-height: 1;
+    font-family: serif;
+}
+
+.block.quote blockquote::after {
+    content: "\201D";
+    font-size: 4em;
+    color: #666;
+    position: absolute;
+    right: -10px;
+    bottom: -30px;
+    line-height: 1;
+    font-family: serif;
+}
+.block.quote > div:last-child > div {
+    padding: 0 75px;
+    font-size: small;
+    font-style: italic;
+    position: relative;
+    font-size: 1.25rem;
+}
+.block.quote > div:last-child > div p {
+    margin: 0px;
+}
+.block.quote > div:last-child > div::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    height: 5px;
+    width: 30px;
+    background-color: darkgray;
+}
