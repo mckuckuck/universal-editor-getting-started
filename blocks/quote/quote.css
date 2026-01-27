@@ -4,8 +4,9 @@
     flex-direction: column;
     margin: 1rem 0;
 }
+
 .block.quote blockquote {
-    padding: 24px 24px 12px 24px;
+    padding: 24px 24px 12px;
     text-indent: 0;
     position: relative;
     font-style: italic;
@@ -34,16 +35,18 @@
     line-height: 1;
     font-family: serif;
 }
+
 .block.quote > div:last-child > div {
     padding: 0 75px;
-    font-size: small;
     font-style: italic;
     position: relative;
     font-size: 1.25rem;
 }
+
 .block.quote > div:last-child > div p {
-    margin: 0px;
+    margin: 0;
 }
+
 .block.quote > div:last-child > div::after {
     content: "";
     display: block;
