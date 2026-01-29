@@ -190,6 +190,29 @@
     ]
   },
   {
+    "id": "generated-block",
+    "fields": [
+      {
+        "component": "text-input",
+        "name": "cfPath",
+        "label": "Content Fragment Path",
+        "valueType": "string"
+      },
+      {
+        "component": "text-input",
+        "name": "templateUrl",
+        "label": "Template URL",
+        "valueType": "string"
+      },
+      {
+        "component": "text-area",
+        "name": "generatedHtml",
+        "label": "Generated HTML",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
     "id": "hero",
     "fields": [
       {

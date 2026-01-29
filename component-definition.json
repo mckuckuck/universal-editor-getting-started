@@ -143,6 +143,20 @@
           }
         },
         {
+          "title": "Generated Block",
+          "id": "generated-block",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "react-spectrum-dashboard/components/generated-block",
+                "template": {
+                  "model": "generated-block"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Hero",
           "id": "hero",
           "plugins": {
