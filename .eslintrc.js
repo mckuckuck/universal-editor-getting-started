@@ -4,6 +4,7 @@ module.exports = {
     'airbnb-base',
     'plugin:json/recommended',
     'plugin:xwalk/recommended',
+    'plugin:prettier/recommended',
   ],
   env: {
     browser: true,
@@ -19,4 +20,12 @@ module.exports = {
     'linebreak-style': ['error', 'unix'], // enforce unix linebreaks
     'no-param-reassign': [2, { props: false }], // allow modifying properties of param
   },
+  overrides: [
+    {
+      files: ['component-definition.json'],
+      rules: {
+        'xwalk/no-custom-resource-types': 'off',
+      },
+    },
+  ],
 };

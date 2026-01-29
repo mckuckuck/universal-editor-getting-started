@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Package files
+package-lock.json
+
+# Tools
+tools/importer/helix-importer-ui/
+
+# Other
+coverage/
+.cache/
