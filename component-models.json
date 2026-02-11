@@ -239,6 +239,18 @@
     ]
   },
   {
+    "id": "national-menu",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text",
+        "label": "Text",
+        "value": ""
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
       {
@@ -253,18 +265,6 @@
         "valueType": "string",
         "name": "author",
         "label": "Author",
-        "value": ""
-      }
-    ]
-  },
-  {
-    "id": "national-menu",
-    "fields": [
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "text",
-        "label": "Text",
         "value": ""
       }
     ]
