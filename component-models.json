@@ -256,5 +256,17 @@
         "value": ""
       }
     ]
+  },
+  {
+    "id": "national-menu",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "text",
+        "label": "Text",
+        "value": ""
+      }
+    ]
   }
 ]

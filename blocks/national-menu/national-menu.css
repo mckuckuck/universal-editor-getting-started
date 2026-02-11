@@ -1,0 +1,14 @@
+.block.national-menu {
+  padding: 1rem 0;
+}
+
+.block.national-menu .national-menu-text {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.block.national-menu .national-menu-text:empty::before {
+  content: "Add menu text…";
+  color: #999;
+}
