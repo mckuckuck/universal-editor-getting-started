@@ -258,6 +258,18 @@
     ]
   },
   {
+    "id": "menulist",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "title",
+        "label": "Title",
+        "value": ""
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
       {

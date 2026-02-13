@@ -18,7 +18,8 @@
       "fragment",
       "quote",
       "generated-block",
-      "content-fragment-loader"
+      "content-fragment-loader",
+      "menulist"
     ]
   },
   {

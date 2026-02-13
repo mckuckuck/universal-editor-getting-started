@@ -17,3 +17,28 @@
   color: #c00;
   padding: 0.5rem 0;
 }
+
+/* Section template: page heading, disclaimer, CTA */
+.block.content-fragment-loader .content-fragment-loader-section {
+  /* wrapper for section template */
+}
+
+.block.content-fragment-loader .content-fragment-loader-heading {
+  /* page heading (h1) */
+}
+
+.block.content-fragment-loader .content-fragment-loader-disclaimer-section {
+  /* section containing disclaimer + CTA */
+}
+
+.block.content-fragment-loader .content-fragment-loader-disclaimer {
+  /* disclaimer text */
+}
+
+.block.content-fragment-loader .content-fragment-loader-cta {
+  /* CTA container */
+}
+
+.block.content-fragment-loader .content-fragment-loader-cta-link {
+  /* CTA link (when ctaUrl is set) */
+}
