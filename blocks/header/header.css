@@ -5,6 +5,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  border-bottom: solid 1px #ebe3d9;
 }
 
 header nav {
