@@ -109,3 +109,7 @@
     grid-template-columns: 1fr;
   }
 }
+
+.menu-list .menulist-card-image {
+  max-width: 100%;
+}
