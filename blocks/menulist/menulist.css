@@ -32,3 +32,33 @@
 .block.menulist .menulist-item a:hover {
   text-decoration: underline;
 }
+
+/* Breakfast cards (injected from menu API) */
+.block.menulist .menulist-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.block.menulist .menulist-card {
+  background: #f8f8f8;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #eee;
+}
+
+.block.menulist .menulist-card-image {
+  aspect-ratio: 1;
+  background: #e0e0e0 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24' fill='%23999'%3E%3Cpath d='M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z'/%3E%3C/svg%3E") center/48px no-repeat;
+}
+
+.block.menulist .menulist-card-title {
+  margin: 0;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
