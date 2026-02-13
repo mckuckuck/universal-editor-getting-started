@@ -266,3 +266,15 @@ header nav .nav-sections ul > li > ul > li {
 header nav .nav-tools {
   grid-area: tools;
 }
+
+header nav .nav-tools a.button:any-link,
+header a.button:any-link {
+  background-color: #008938;
+}
+
+header nav .nav-tools a.button:hover,
+header nav .nav-tools a.button:focus,
+header a.button:hover,
+header a.button:focus {
+  background-color: #006b2c;
+}

@@ -48,15 +48,15 @@
   text-align: center;
   text-decoration: none;
   color: #FFF6E9;
-  background-color: #2B6040;
+  background-color: #008938;
   border: none;
-  border-radius: 8px;
+  border-radius: 9999px;
   white-space: nowrap;
   flex-shrink: 0;
 }
 
 .block.content-fragment-loader .content-fragment-loader-cta-button:hover {
-  background-color: #234d33;
+  background-color: #006b2c;
   color: #FFF6E9;
 }
 
