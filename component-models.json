@@ -180,6 +180,25 @@
     ]
   },
   {
+    "id": "content-fragment-loader",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "contentFragmentUrl",
+        "label": "Content Fragment URL",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "templateName",
+        "label": "Template Name",
+        "value": ""
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {
