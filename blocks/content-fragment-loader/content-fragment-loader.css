@@ -3,11 +3,6 @@
   margin: 1rem 0;
 }
 
-.block.content-fragment-loader-placeholder {
-  padding: 1rem;
-  border-left: 4px solid #1473e6;
-}
-
 .block.content-fragment-loader .content-fragment-loader-rendered {
   padding: 0.5rem 0;
 }
