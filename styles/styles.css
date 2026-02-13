@@ -12,7 +12,7 @@
 
 :root {
   /* colors */
-  --background-color: white;
+  --background-color: #FFF6E9;
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
@@ -172,8 +172,8 @@ button {
   display: inline-block;
   max-width: 100%;
   margin: 12px 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
+  border: none;
+  border-radius: 8px;
   padding: 0.5em 1.2em;
   font-family: var(--body-font-family);
   font-style: normal;
@@ -181,8 +181,8 @@ button {
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
-  background-color: var(--link-color);
-  color: var(--background-color);
+  background-color: #2B6040;
+  color: #FFF6E9;
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -193,7 +193,8 @@ a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
-  background-color: var(--link-hover-color);
+  background-color: #234d33;
+  color: #FFF6E9;
   cursor: pointer;
 }
 

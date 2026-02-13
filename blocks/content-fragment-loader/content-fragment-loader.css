@@ -47,18 +47,17 @@
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
-  color: #fff;
-  background-color: #1473e6;
-  border: 2px solid #1473e6;
-  border-radius: 4px;
+  color: #FFF6E9;
+  background-color: #2B6040;
+  border: none;
+  border-radius: 8px;
   white-space: nowrap;
   flex-shrink: 0;
 }
 
 .block.content-fragment-loader .content-fragment-loader-cta-button:hover {
-  background-color: #0d5bb5;
-  border-color: #0d5bb5;
-  color: #fff;
+  background-color: #234d33;
+  color: #FFF6E9;
 }
 
 .block.content-fragment-loader .content-fragment-loader-disclaimer {

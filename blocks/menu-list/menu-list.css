@@ -46,18 +46,19 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  background: #f8f8f8;
+  background: transparent;
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid #eee;
+  border: none;
 }
 
 .menu-list .menulist-card-image,
 .block.menulist .menulist-card-image {
   flex-shrink: 0;
   width: 100%;
-  height: 180px;
-  background: #e0e0e0 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24' fill='%23999'%3E%3Cpath d='M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z'/%3E%3C/svg%3E") center/48px no-repeat;
+  max-width: 370px;
+  height: 269px;
+  background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24' fill='%23999'%3E%3Cpath d='M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z'/%3E%3C/svg%3E") center/48px no-repeat;
 }
 
 .menu-list .menulist-card-image img,
@@ -73,6 +74,7 @@
   flex: 1;
   display: flex;
   align-items: center;
+  background-color: #F8EAD8;
 }
 
 .menu-list .menulist-card-title,
@@ -82,6 +84,12 @@
   font-size: 0.9rem;
   font-weight: 600;
   line-height: 1.3;
+  color: #2B6040;
+}
+
+.menu-list .menulist-card-body p,
+.block.menulist .menulist-card-body p {
+  color: #2B6040;
 }
 
 @media (max-width: 768px) {
