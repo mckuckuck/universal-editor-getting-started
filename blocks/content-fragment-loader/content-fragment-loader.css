@@ -4,7 +4,6 @@
 }
 
 .block.content-fragment-loader-placeholder {
-  background: #f5f5f5;
   padding: 1rem;
   border-left: 4px solid #1473e6;
 }
@@ -29,6 +28,42 @@
 
 .block.content-fragment-loader .content-fragment-loader-disclaimer-section {
   /* section containing disclaimer + CTA */
+}
+
+/* Description and button on the same line */
+.block.content-fragment-loader .content-fragment-loader-description-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.block.content-fragment-loader .content-fragment-loader-description-row .content-fragment-loader-disclaimer {
+  margin: 0;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.block.content-fragment-loader .content-fragment-loader-cta-button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1473e6;
+  border: 2px solid #1473e6;
+  border-radius: 4px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.block.content-fragment-loader .content-fragment-loader-cta-button:hover {
+  background-color: #0d5bb5;
+  border-color: #0d5bb5;
+  color: #fff;
 }
 
 .block.content-fragment-loader .content-fragment-loader-disclaimer {
