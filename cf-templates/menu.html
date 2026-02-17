@@ -1,40 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+  <head>
+    <title>{{#pageTitleList}}{{title}}{{/pageTitleList}}</title>
+  </head>
 
-<head>
-  <title>{{#pageTitleList}}{{title}}{{/pageTitleList}}</title>
-</head>
-
-<body>
-  <header></header>
-  <main>
-    {{#pageTitleList}}
-    <h1>{{title}}</h1>
-    <h2>Eat Fresh!!</h2>
-    <div class="disclaimer">
+  <body>
+    <header></header>
+    <main>
       <div>
-        <div>{{description.plaintext}}</div>
-        {{#fieldLabel}}
-        <div>{{label}}</div>
-        {{/fieldLabel}}
-      </div>
-    </div>
-    {{/pageTitleList}}
-    <div class="menu-list">
-      <div>
-        <div>Explore our Menu</div>
-      </div>
-      {{#categories}}
-      <div>
-        <div><img src="{{imageUrl}}" alt="{{displayName}}" loading="lazy" /></div>
-        <div>
-          <p>{{displayName}}</p>
+        {{#pageTitleList}}
+        <h1>{{title}}</h1>
+        <h2>Eat Fresh!!</h2>
+        <div class="disclaimer">
+          <div>
+            <div>{{description.plaintext}}</div>
+            {{#fieldLabel}}
+            <div>{{label}}</div>
+            {{/fieldLabel}}
+          </div>
+        </div>
+        {{/pageTitleList}}
+        <div class="menu-list">
+          <div>
+            <div>Explore our Menu</div>
+          </div>
+          {{#categories}}
+          <div>
+            <div><img src="{{imageUrl}}" alt="{{displayName}}" loading="lazy" /></div>
+            <div>
+              <p>{{displayName}}</p>
+            </div>
+          </div>
+          {{/categories}}
         </div>
       </div>
-      {{/categories}}
-    </div>
-  </main>
-  <footer></footer>
-</body>
-
+    </main>
+    <footer></footer>
+  </body>
 </html>
