@@ -1,0 +1,27 @@
+.block.disclaimer {
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+.block.disclaimer .disclaimer-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.block.disclaimer .disclaimer-description {
+  margin: 0;
+  flex: 1 1 auto;
+  min-width: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.block.disclaimer .disclaimer-field-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #555;
+  flex-shrink: 0;
+}

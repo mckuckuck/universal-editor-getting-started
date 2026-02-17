@@ -199,6 +199,25 @@
     ]
   },
   {
+    "id": "disclaimer",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "description",
+        "label": "Description",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "fieldLabel",
+        "label": "Field Label",
+        "value": ""
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {

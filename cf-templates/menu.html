@@ -1,16 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Menu</title>
-  </head>
-  <body>
-    <header></header>
-    <main>
-      <!-- Your Mustache-based layout for the CF -->
-      <div>Welcome Menu test
-      <h1>{{properties.title}}</h1>
+
+<head>
+  <title>{{#pageTitleList}}{{title}}{{/pageTitleList}}</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    {{#pageTitleList}}
+    <h1>{{title}}</h1>
+    <div class="disclaimer">
+      <div>
+        <div>{{description.plaintext}}</div>
+        {{#fieldLabel}}
+        <div>{{label}}</div>
+        {{/fieldLabel}}
       </div>
-    </main>
-    <footer></footer>
-  </body>
+    </div>
+    {{/pageTitleList}}
+    <div class="menu-list">
+      <div>
+        <div>Explore our Menu</div>
+      </div>
+      {{#categories}}
+      <div>
+        <div><img src="{{imageUrl}}" alt="{{displayName}}" loading="lazy" /></div>
+        <div>
+          <p>{{displayName}}</p>
+        </div>
+      </div>
+      {{/categories}}
+    </div>
+  </main>
+  <footer></footer>
+</body>
+
 </html>
