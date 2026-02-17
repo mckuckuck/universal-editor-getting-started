@@ -76,7 +76,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
+  font-size: var(--body-font-size-s);
   line-height: 1.6;
 }
 
@@ -127,6 +127,9 @@ pre,
 blockquote {
   margin-top: 0.8em;
   margin-bottom: 0.25em;
+  color: var(--text-color);
+  font-size: var(--body-font-size-s);
+  line-height: 1.6;
 }
 
 code,

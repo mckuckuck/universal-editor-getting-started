@@ -1,6 +1,7 @@
 .block.disclaimer {
   padding: 1rem 0;
   margin: 1rem 0;
+  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.08);
 }
 
 .block.disclaimer .disclaimer-row {
@@ -8,6 +9,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 1rem;
+  font-weight: 500;
 }
 
 .block.disclaimer .disclaimer-description {
@@ -16,12 +18,29 @@
   min-width: 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: #333;
+  color: var(--text-color);
 }
 
 .block.disclaimer .disclaimer-field-label {
-  font-size: 0.875rem;
-  font-weight: 600;
-  color: #555;
   flex-shrink: 0;
+}
+
+.block.disclaimer .disclaimer-cta {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF6E9;
+  background-color: #008938;
+  border: none;
+  border-radius: 9999px;
+  white-space: nowrap;
+}
+
+.block.disclaimer .disclaimer-cta:hover {
+  background-color: #006b2c;
+  color: #FFF6E9;
 }
