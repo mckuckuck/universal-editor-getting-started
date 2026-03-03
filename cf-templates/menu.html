@@ -19,14 +19,12 @@
             {{/fieldLabel}}
           </div>
         </div>
-        {{#fragmentPath}}
-        <div class="fragment block">
-          <div>
-            <div><a href="{{fragmentPath}}">{{fragmentPath}}</a></div>
-          </div>
-        </div>
-        {{/fragmentPath}}
         {{/pageTitleList}}
+        {{#fragmentHtml}}
+        <div class="fragment-html">
+          {{{fragmentHtml}}}
+        </div>
+        {{/fragmentHtml}}
         <div class="menu-list">
           <div>
             <div>Explore our Menu below</div>
