@@ -218,6 +218,10 @@
     ]
   },
   {
+    "id": "dynamic-menu",
+    "fields": []
+  },
+  {
     "id": "fragment",
     "fields": [
       {
