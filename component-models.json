@@ -306,5 +306,25 @@
         "value": ""
       }
     ]
+  },
+  {
+    "id": "raw-markup",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "content",
+        "label": "Content",
+        "value": "",
+        "valueType": "string"
+      },
+      {
+        "component": "boolean",
+        "name": "stripFormatting",
+        "label": "Strip Formatting (Plain Text Only)",
+        "description": "When enabled, keeps only the literal text of each line and discards any inline formatting (bold, links, etc). Use this if rich-text formatting would corrupt literal template syntax like {{...}}.",
+        "valueType": "boolean",
+        "value": false
+      }
+    ]
   }
 ]

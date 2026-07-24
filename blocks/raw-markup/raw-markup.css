@@ -1,0 +1,5 @@
+/*
+ * Raw Markup Block
+ * No styles: the block replaces its own markup entirely (block.outerHTML)
+ * at decoration time, so nothing with this block's classes remains in the DOM.
+ */

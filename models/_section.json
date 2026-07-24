@@ -54,7 +54,8 @@
         "quote",
         "generated-block",
         "content-fragment-loader",
-        "menulist"
+        "menulist",
+        "raw-markup"
       ]
     }
   ]
