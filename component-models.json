@@ -287,10 +287,10 @@
         "value": ""
       },
       {
-        "component": "text",
+        "component": "richtext",
         "valueType": "string",
         "name": "jsonData",
-        "label": "JSON Data (generated)",
+        "label": "Generated HTML",
         "value": ""
       }
     ]
