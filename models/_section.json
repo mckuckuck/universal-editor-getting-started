@@ -55,7 +55,8 @@
         "generated-block",
         "content-fragment-loader",
         "menulist",
-        "raw-markup"
+        "raw-markup",
+        "json-source"
       ]
     }
   ]

@@ -277,6 +277,25 @@
     ]
   },
   {
+    "id": "json-source",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "jsonPath",
+        "label": "JSON Path",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "jsonData",
+        "label": "JSON Data (generated)",
+        "value": ""
+      }
+    ]
+  },
+  {
     "id": "menulist",
     "fields": [
       {
