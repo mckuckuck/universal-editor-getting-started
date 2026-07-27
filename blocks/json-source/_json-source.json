@@ -32,7 +32,7 @@
           "value": ""
         },
         {
-          "component": "richtext",
+          "component": "text",
           "valueType": "string",
           "name": "jsonData",
           "label": "Generated HTML",
