@@ -12,7 +12,21 @@ export default function registerUEExtensions() {
 
   const broadcastSelection = (text) => {
     const payload = { type: SELECTION_MESSAGE_TYPE, text };
-    const guestFrames = document.querySelectorAll('iframe[data-uix-guest="true"]');
+
+    // This page runs inside Universal Editor's canvas iframe; the
+    // extension's own iframes are siblings in the parent document, not
+    // nested inside this one, so the search has to start one level up.
+    let rootDocument = document;
+    try {
+      if (window.parent && window.parent !== window) {
+        rootDocument = window.parent.document;
+      }
+    } catch {
+      // Cross-origin parent — can't reach its document, nothing to relay to.
+      return;
+    }
+
+    const guestFrames = rootDocument.querySelectorAll('iframe[data-uix-guest="true"]');
 
     guestFrames.forEach((frame) => {
       if (!frame.contentWindow) return;
