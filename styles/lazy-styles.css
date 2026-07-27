@@ -1,1 +1,19 @@
 /* add global styles that can be loaded post LCP here */
+
+/* RTE style picker classes (App Builder Universal Editor extension: ue-modal-extension) */
+.rte-highlight {
+  background-color: #fff3b0;
+  padding: 0 2px;
+}
+
+.rte-lead-in {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.rte-callout {
+  display: block;
+  border-left: 4px solid var(--text-color);
+  padding-left: 12px;
+  font-style: italic;
+}
