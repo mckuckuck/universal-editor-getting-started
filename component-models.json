@@ -287,6 +287,13 @@
         "value": ""
       },
       {
+        "component": "text",
+        "valueType": "string",
+        "name": "htmlPath",
+        "label": "HTML Template Path",
+        "value": ""
+      },
+      {
         "component": "richtext",
         "valueType": "string",
         "name": "jsonData",
