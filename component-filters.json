@@ -20,6 +20,7 @@
       "generated-block",
       "content-fragment-loader",
       "menulist",
+      "placeholder",
       "raw-markup",
       "json-source"
     ]

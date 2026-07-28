@@ -1,0 +1,8 @@
+.placeholder-box {
+  border: 2px dashed #999;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  color: #666;
+  font-style: italic;
+}

@@ -315,6 +315,44 @@
     ]
   },
   {
+    "id": "placeholder",
+    "fields": [
+      {
+        "component": "select",
+        "valueType": "string",
+        "name": "classes",
+        "label": "Type",
+        "value": "dynamic-menu",
+        "options": [
+          {
+            "name": "Dynamic Menu",
+            "value": "dynamic-menu"
+          },
+          {
+            "name": "Promo",
+            "value": "promo"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "id",
+        "label": "ID",
+        "value": "",
+        "description": "Identifies which dynamic menu this placeholder maps to when a page has more than one (e.g. \"sandwich\", \"wraps\").",
+        "condition": {
+          "===": [
+            {
+              "var": "classes"
+            },
+            "dynamic-menu"
+          ]
+        }
+      }
+    ]
+  },
+  {
     "id": "quote",
     "fields": [
       {
